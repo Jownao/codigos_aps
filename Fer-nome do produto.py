@@ -1,5 +1,5 @@
 #Questão 3
-'''
+
 def linha():
     print('=-='*20)
 
@@ -26,9 +26,9 @@ total= quant*preco*(1-desc)
 
 print(f'O produto comprado foi: {produto}.')
 print(f'O total a pagar é {total}.')
-'''
+
 #Questão 4
-'''
+
 salario= float(input('Digite seu salário para obter o desconto do INSS:\n'))
 inss=''
 if salario < 200:
@@ -41,9 +41,9 @@ elif salario >=1000:
      inss= 9.5
 
 print(f'O desconto do seu INSS é {inss} %.')
-'''
+
 #Questão 8
-'''
+
 numero=[]
 numeros=1
 
@@ -54,9 +54,9 @@ while numeros !=30:
 soma=sum(numero)
 
 print(f'A soma dos números entre 0 e 30 é {soma}.')
-'''
+
 #Questão 9
-'''
+
 import sys
 quant=0
 media=''
@@ -74,9 +74,9 @@ while loop:
 media=(sum(idades)/quant)
 
 print(f'A média de idades foi: {media}')
-'''
+
 #QUestão 10
-'''
+
 numeros=[]
 escolha=0
 escolha=(int(input('Quantos números quer digitar ?\n')))
@@ -90,4 +90,4 @@ soma=max+min
 produto=max*min
 
 print(f'O maior número foi {max} e o menor foi {min} a soma entre ele é {soma} e o produto é {produto}.')
-'''
+
